@@ -25,4 +25,4 @@ elif type(oriValue) is bool:
 else:
     nml[args[2]][args[3]] = args[4]
 
-nml.write(args[1], force=True)
+nml.write(args[1], force=True, align=True)
