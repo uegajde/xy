@@ -1,6 +1,6 @@
 # readNml
 # func: read nml[field][variable]
-# cmd : python readNml.py (path of nml) (name of field) (name of variable)
+# cmd : xyReadNml (path of nml) (name of field) (name of variable)
 
 import f90nml
 import sys

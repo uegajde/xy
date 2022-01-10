@@ -1,10 +1,10 @@
 # compareTime
 # func: operate time calculation
-# cmd : python compareTime.py (time1) (time2) (timeFormat)
+# cmd : xyCompareTime (time1) (time2) (timeFormat)
 # output: 0 when time1 < time2
 #         1 when time1 = time2
 #         2 when time1 > time2
-# example: python compareTime.py 2015-09-15_21:00:00 2015-09-15_21:02:00 %Y-%m-%d_%H:%M:%S
+# example: xyCompareTime 2015-09-15_21:00:00 2015-09-15_21:02:00 %Y-%m-%d_%H:%M:%S
 
 import sys
 from datetime import datetime

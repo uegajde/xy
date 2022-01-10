@@ -1,11 +1,11 @@
 # readWRFTime
 # func: read start or ens time in WRF configuration file (namelist.input)
-# cmd : python readWRFTime.py (path of namelist.input) timeFormat
+# cmd : xyReadWRFTime (path of namelist.input) timeFormat
 # output: startTime or endTime
 # seChoice: startTime or endTime
 #
 # timeFormat: follow python's format
-# example: python readWRFTime.py ${mainDir}/namelist.input startTime %Y-%m-%d_%H:%M:%S
+# example: xyReadWRFTime ${mainDir}/namelist.input startTime %Y-%m-%d_%H:%M:%S
 
 import f90nml
 import sys

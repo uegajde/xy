@@ -1,6 +1,6 @@
 # editWRFTime
 # func: update start, end and run time in namelist.input (for WRF)
-# cmd : python editWRFTime.py (path of namelist.input) (startTime) (endTime) (timeFormat)
+# cmd : xyEditWRFTime (path of namelist.input) (startTime) (endTime) (timeFormat)
 
 import f90nml
 import sys

@@ -1,10 +1,10 @@
 # calTime
 # func: operate time calculation
-# cmd : python calTime.py (rawTime) (rawTimeFormat) (delta) (unit)
+# cmd : xyCalTime (rawTime) (rawTimeFormat) (delta) (unit)
 #
 # rawTimeFormat: follow python's format
 # supported unit: days,day,d / hours,hour,hr / minutes,minute,min / seconds/second/sec
-# example: python calTime.py 2015-09-16_00:00:00 %Y-%m-%d_%H:%M:%S -3 hours
+# example: xyCalTime 2015-09-16_00:00:00 %Y-%m-%d_%H:%M:%S -3 hours
 
 import sys
 from datetime import datetime

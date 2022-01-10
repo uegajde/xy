@@ -1,6 +1,6 @@
 # editNml
 # func: operate "nml[field][varaible] = newValue"
-# cmd : python editNml.py (path of nml) (field) (varaible) (newValue)
+# cmd : xyEditNml (path of nml) (field) (varaible) (newValue)
 #
 # warning:
 # 1. only able to handle int/float/str/boolean, besides the three all treat as string
