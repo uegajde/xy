@@ -42,4 +42,4 @@ WRFnml['time_control']['run_minutes'] = runMins
 WRFnml['time_control']['run_seconds'] = runSecs
 
 # write nml
-WRFnml.write(args[1], force=True, align=True)
+WRFnml.write(args[1], force=True)
