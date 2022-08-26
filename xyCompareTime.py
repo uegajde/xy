@@ -8,7 +8,6 @@
 
 import sys
 from datetime import datetime
-from datetime import timedelta
 
 args = sys.argv
 time1 = datetime.strptime(args[1], args[3])
